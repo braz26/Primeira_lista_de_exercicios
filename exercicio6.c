@@ -4,7 +4,10 @@ int main() {
     float salario;
     float g= 0.05;
     float i= 0.07;
+    
+    printf("Digite seu salario: ");
     scanf("%f", &salario);
+
 printf("Seu novo salario e: %.2f", salario + (salario * g) - (salario * i));
 
    return 0;

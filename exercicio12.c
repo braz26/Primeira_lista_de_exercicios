@@ -2,7 +2,7 @@
 #include <math.h> //importacao da biblioteca para funcoes matematicas
 int main() {
     float n1,n2;
-
+    printf("Digite dois numeros maiores que zero para realizar a operacao de potencia: ");
     scanf("%f", &n1);
     scanf("%f", &n2);
 

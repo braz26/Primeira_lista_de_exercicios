@@ -4,6 +4,7 @@ int main() {
     int pe= 12; // polegadas
     int jarda= 3; // pes
     int milha= 1760; // jardas
+    printf("Digite o valor em pes, jardas e milhas para realizar a conversao: ");
     scanf("%d", &pe);
     scanf("%d", &jarda);
     scanf("%d", &milha);
